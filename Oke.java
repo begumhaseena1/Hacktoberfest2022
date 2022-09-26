@@ -3,24 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oke;
-
+package com.mycompany.operator;
 import java.util.Scanner;
-
 /**
  *
  * @author daffa
  */
-public class Oke {
-public static Scanner input;
+public class opertorini {
+    public static Scanner input;
    public static void main(String []args){
        
-    
-       System.out.println("NAMA : SHIVA");
+       int panjang,lebar,luas;
+       input = new Scanner( System.in );
+       System.out.print("Masukan Nilai Panjang :");
+       panjang = input.nextInt();
+       System.out.print("Masukan Nilai Lebar :");
+       lebar = input.nextInt();
+       luas = panjang * lebar;
        
-       System.out.println("NPM : 21552011076");
-      
-       
-      
+       System.out.println("Luas Persegi Panjang : " + luas);
    }
 }
